@@ -606,8 +606,10 @@ This is a footnote with "label"[^label]
 ```markdown
 ![Minion](https://octodex.github.com/images/minion.png)
 ![Alt text](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
+
 ![Alt text2][id]
 Other contents
+
 [id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
 ```
 
@@ -621,8 +623,10 @@ Other contents
 {{< admonition type=abstract title="Rendered" >}}
 ![Minion](https://octodex.github.com/images/minion.png)
 ![Alt text](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
+
 ![Alt text2][id]
 Other contents
+
 [id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
 {{</ admonition >}}
 
